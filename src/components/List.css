@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.products-container {
+    height: 410px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin:20px;
+    background-color: aliceblue;
+    
+  }
+
+  .button {
+    align-items: center;
+    justify-content: center;
+  }

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    outline: none;
+    background-color: aliceblue;
+    overflow: none;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px #ccc;
+  }
+
+h1,h2,h3,h4 {
+    line-height: normal;
+    text-align: center;
+} 
+
+.image {
+    width: 250px;
+    height: 80px;
+    object-fit: contain;
+}
